@@ -5,3 +5,4 @@ This is a LaTeX template based on the [University of Oslo (UiO)'s official LaTeX
 ## Why?
 To simplify the organization and writing of your thesis from "vanskelig" to "lett", hence the name "**L**atex **E**xpanded **T**hesis **T**emplate".
 
+# Coming soon! (after my thesis is done: 25th of May 2023)
