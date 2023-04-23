@@ -1,4 +1,4 @@
-# [L]atex-[E]xpanded-[T]hesis-[T]emplate
+# Latex Expanded Thesis Template
 This is a LaTeX template based on the [University of Oslo (UiO)'s official LaTeX template (~2023)](https://www.uio.no/english/about/designmanual/profile-in-use/latex/index.html) for a master's thesis; but expanded!
 
 
