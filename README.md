@@ -36,3 +36,52 @@ It will be written after the 6th of June, 2023, and published shortly after.
 
 ### Todos categories
 See todos.tex: question, fact-check, confirm, suggestion, reorganize, delete, condense, add, expand, red-thread
+
+# MVP:
+## Citing references
+You have a .bib-file with sources: probably generated from Zotero.
+These sources have a key that you can reference them with and looks something like:
+```
+@book{yinCaseStudyResearch2018,
+	location = {Los Angeles},
+	edition = {Sixth edition},
+	title = {Case study research and applications: design and methods},
+	isbn = {978-1-5063-3616-9},
+	shorttitle = {Case study research and applications},
+	pagetotal = {319},
+	publisher = {{SAGE}},
+	author = {Yin, Robert K.},
+	date = {2018},
+	note = {Note: This book does not have page numbers. We would have referenced the exact page numbers in-text if they were included.},
+	keywords = {Case method, Research Methodology, Social sciences},
+}
+```
+Here, the key is `yinCaseStudyResearch2018`.
+
+Use `\parencite{key}`, `\citeauthor{key}`, `\citeyear{key}`, `\citeyearpar{key}`, `\citetitle{key}` or if you want to specify a key directly: `\citefield{key}{field}` where fields can be `shorttitle` etc.
+
+Example:
+```
+According to \citeauthor{yinCaseStudyResearch2018} \citeyearpar{yinCaseStudyResearch2018}, blablabla
+% According to Yin (2018), blablabla
+```
+
+## Referencing in-document
+Structurre: the thesis is structured in parts, chapters, sections, subsections, subsubsections ...
+It can include figures and tables.
+The structural elements, figures, and tables can be reffered to in-text by giving them a label:
+`\label{myLabel}`
+The label is placed below what is being labeled,
+and it is helpful to add a prefix of what's being labelled: `prefix:myLabel`.
+Example:
+```
+\part{Introduction}
+\label{part:introduction}
+
+As you can see in \cref{part:introduction} ... % in Part #
+... which we already discussed in \vref{part:introduction}
+% in Part # on page # (or previous page etc depending on where it actually is)
+```
+
+Here we used `cref` and `vref` to reference the label. Cref automatically knows that is being referenced: figure, table, part, chapter etc.
+and vref adds the page number as well... 
