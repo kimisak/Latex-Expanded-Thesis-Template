@@ -27,5 +27,8 @@ It will be written after the 6th of June, 2023, and published shortly after.
 - Preface / acknowledgements add-on: text-box in bottom-right corner; can be changed to bottom left,
 - `\ExternalHref{the_link}{text_shown}` creates a link with a blue, link-colored link-symbol; example: '[great song](https://www.youtube.com/watch?v=Wd6tLmiylAY) ↗️',
 
+## Rename 'Preface' to 'Acknowledgements' with:
+`\renewcommand{\prefacename}{Acknowledgements}`
+
 ### Todos categories
 See todos.tex: question, fact-check, confirm, suggestion, reorganize, delete, condense, add, expand, red-thread
