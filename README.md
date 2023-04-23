@@ -52,7 +52,6 @@ These sources have a key that you can reference them with and looks something li
 	publisher = {{SAGE}},
 	author = {Yin, Robert K.},
 	date = {2018},
-	note = {Note: This book does not have page numbers. We would have referenced the exact page numbers in-text if they were included.},
 	keywords = {Case method, Research Methodology, Social sciences},
 }
 ```
