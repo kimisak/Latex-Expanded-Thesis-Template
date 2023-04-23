@@ -23,7 +23,7 @@ It will be written after the 6th of June, 2023, and published shortly after.
 - `\citeyear` and `\citeyearpar` links the year to the bibliography: useful when citing author like "according to Author (Year), blablabla",
 - Author-year separated by a comma: `this is from a reference (author, year)`,
 - Todos with categories for editing,
-- Labels for text: If you need to reference text directly, instead of a part, chapter, section etc.,
+- Labels for text: If you need to reference text directly, instead of a part, chapter, section etc.,: add label with `\labeltext{see text on \vref{label}}{txt:myLabel}` and refer to label with either `\cref{txt:myLabel}` or `\vref{txt:myLabel}`,
 - Preface / acknowledgements add-on: text-box in bottom-right corner; can be changed to bottom left,
 - `\ExternalHref{the_link}{text_shown}` creates a link with a blue, link-colored link-symbol; example: '[great song](https://www.youtube.com/watch?v=Wd6tLmiylAY) ↗️',
 
