@@ -16,6 +16,9 @@ It will be written after the 6th of June, 2023, and published shortly after.
 5. Start writing! 
 
 # Expanded:
+- Explanations on how to switch from easy-PDF-reading (oneside) to print-as-a-book (twoside),
+- Explanations on how to change font-size from normal 11pt to 12pt,
+- Setting to set 1.5 in 'linjeavstand',
 - Paragraphs instead of indents,
 - Single-space at the beginning of sentences: `This is a sentence. This is another one.` vs. `This is a sentence.  This is another one.`
 - Glossaries and Acronyms,
