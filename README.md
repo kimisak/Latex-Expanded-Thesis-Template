@@ -84,3 +84,10 @@ As you can see in \cref{part:introduction} ... % in Part #
 
 Here we used `cref` and `vref` to reference the label. Cref automatically knows that is being referenced: figure, table, part, chapter etc.
 and vref adds the page number as well... 
+
+## Glossaries
+Check out how on:
+https://ftp.fagskolen.gjovik.no/pub/tex-archive/macros/latex/contrib/glossaries/glossariesbegin.pdf
+https://ftp.fagskolen.gjovik.no/pub/tex-archive/macros/latex/contrib/glossaries/glossaries-user.pdf
+
+# Better README will come after my thesis.
