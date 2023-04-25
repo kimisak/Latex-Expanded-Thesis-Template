@@ -91,3 +91,7 @@ https://ftp.fagskolen.gjovik.no/pub/tex-archive/macros/latex/contrib/glossaries/
 https://ftp.fagskolen.gjovik.no/pub/tex-archive/macros/latex/contrib/glossaries/glossaries-user.pdf
 
 # Better README will come after my thesis.
+
+
+# TODO: 
+Write about how to sync Overleaf and Zotero with https://retorque.re/zotero-better-bibtex/ for generating keys.
