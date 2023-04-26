@@ -94,4 +94,8 @@ https://ftp.fagskolen.gjovik.no/pub/tex-archive/macros/latex/contrib/glossaries/
 
 
 # TODO: 
-Write about how to sync Overleaf and Zotero with https://retorque.re/zotero-better-bibtex/ for generating keys.
+- Write about structuring the thesis
+- Write about glossaries
+- Write about "how to make custom titles on set sections", and add toc lines.
+- Write about how to sync Overleaf and Zotero with https://retorque.re/zotero-better-bibtex/ for generating keys.
+- Write about auhtoryear-ibid vs apa bib-styles and how citations work for both
