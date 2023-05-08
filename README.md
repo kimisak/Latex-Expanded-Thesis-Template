@@ -100,3 +100,5 @@ https://ftp.fagskolen.gjovik.no/pub/tex-archive/macros/latex/contrib/glossaries/
 - Write about "how to make custom titles on set sections", and add toc lines.
 - Write about how to sync Overleaf and Zotero with https://retorque.re/zotero-better-bibtex/ for generating keys.
 - Write about auhtoryear-ibid vs apa bib-styles and how citations work for both --- some found that APA is best!
+- Write about how to translate the "appendices" in Norwegian, as language does not update automatically.
+- Write about how the bibliography (will use) iso-dates for all dates
