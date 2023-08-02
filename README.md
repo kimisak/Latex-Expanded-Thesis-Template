@@ -23,7 +23,7 @@ It will be written after the 6th of June, 2023, and published shortly after.
 - Single-space at the beginning of sentences: `This is a sentence. This is another one.` vs. `This is a sentence.  This is another one.`
 - Glossaries and Acronyms,
 - Appendices,
-- `\authoryear{citationKey}` links the year to the bibliography: useful when citing author like "according to Author (Year), blablabla",
+- `\authorYear{citationKey}` links the year to the bibliography: useful when citing author like "according to Author (Year), blablabla",
 - Author-year separated by a comma: `this is from a reference (author, year)`,
 - Todos with categories for editing,
 - Figure Title (not usually needed; caption should be enough): add this inside and below \begin{figure}: `\figuretitle{This Title is necessary}`,
