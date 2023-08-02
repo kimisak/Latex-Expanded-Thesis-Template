@@ -23,7 +23,7 @@ It will be written after the 6th of June, 2023, and published shortly after.
 - Single-space at the beginning of sentences: `This is a sentence. This is another one.` vs. `This is a sentence.  This is another one.`
 - Glossaries and Acronyms,
 - Appendices,
-- `\citeyear` and `\citeyearpar` links the year to the bibliography: useful when citing author like "according to Author (Year), blablabla",
+- `\authoryear{citationKey}` links the year to the bibliography: useful when citing author like "according to Author (Year), blablabla",
 - Author-year separated by a comma: `this is from a reference (author, year)`,
 - Todos with categories for editing,
 - Figure Title (not usually needed; caption should be enough): add this inside and below \begin{figure}: `\figuretitle{This Title is necessary}`,
@@ -90,15 +90,6 @@ Check out how on:
 https://ftp.fagskolen.gjovik.no/pub/tex-archive/macros/latex/contrib/glossaries/glossariesbegin.pdf
 https://ftp.fagskolen.gjovik.no/pub/tex-archive/macros/latex/contrib/glossaries/glossaries-user.pdf
 
-# Better README will come after my thesis.
-
-
 # TODO:
 - Unzip project to make files and folders easily available so people can contribute
-- Write about structuring the thesis
-- Write about glossaries
-- Write about "how to make custom titles on set sections", and add toc lines.
 - Write about how to sync Overleaf and Zotero with https://retorque.re/zotero-better-bibtex/ for generating keys.
-- Write about auhtoryear-ibid vs apa bib-styles and how citations work for both --- some found that APA is best!
-- Write about how to translate the "appendices" in Norwegian, as language does not update automatically.
-- Write about how the bibliography (will use) iso-dates for all dates
